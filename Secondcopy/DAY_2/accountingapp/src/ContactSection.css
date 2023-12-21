@@ -1,0 +1,26 @@
+/* Footer.css */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(254, 254, 254);
+    padding: 10px;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+  
+  .contact-info,
+  .important-pages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
